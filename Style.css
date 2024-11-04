@@ -1,0 +1,37 @@
+body {
+    background-color: #121212; /* Dark background for the page */
+    color: #ffffff; /* White text color */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #1e1e1e; /* Dark card background */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #b0b0b0; /* Lighter gray for description text */
+}
