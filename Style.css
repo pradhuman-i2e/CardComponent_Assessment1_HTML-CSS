@@ -1,6 +1,6 @@
 body {
-    background-color: #121212; /* Dark background for the page */
-    color: #ffffff; /* White text color */
+    background-color: #7e7b7b;
+    color: #ffffff;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -9,8 +9,18 @@ body {
     margin: 0;
 }
 
+.box-container {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card {
-    background-color: #1e1e1e; /* Dark card background */
+    background-color: #060606;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     width: 300px;
@@ -33,5 +43,5 @@ body {
 
 .card-description {
     font-size: 14px;
-    color: #b0b0b0; /* Lighter gray for description text */
+    color: #b0b0b0;
 }
